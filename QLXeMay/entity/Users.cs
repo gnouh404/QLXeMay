@@ -25,5 +25,6 @@ namespace QLXeMay
         public string Password { get => password; set => password = value; }
         public int Ha;
         public int Hieu;
+        public int taho;
     }
 }
