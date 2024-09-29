@@ -68,6 +68,12 @@ namespace QLXeMay
                 MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác", "Thông báo",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            Console.WriteLine("Any changes");
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
