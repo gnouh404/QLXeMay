@@ -13,10 +13,13 @@ namespace QLXeMay.forms
 {
     public partial class Home : Form
     {
-        public Home()
+        private int userId;
+
+        public Home(int userId)
         {
             InitializeComponent();
-            //trangChuUserControl1.BringToFront();
+            trangChuUserControl2.BringToFront();
+            this.userId = userId;
             //this.Size = new Size(1700, 1000);
         }
 
@@ -31,12 +34,12 @@ namespace QLXeMay.forms
 
         private void btnSanPham_Click(object sender, EventArgs e)
         {
-            sanPhamUserControl2.BringToFront();
+            sanPhamUserControl3.BringToFront();
         }
 
         private void btnKhachHang_Click(object sender, EventArgs e)
         {
-            khachHangUserControl2.BringToFront();
+            khachHangUserControl3.BringToFront();
         }
 
         private void profileControl1_Load(object sender, EventArgs e)

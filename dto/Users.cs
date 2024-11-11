@@ -8,6 +8,7 @@ namespace QLXeMay
 {
     internal class Users
     {
+        private int userId;
         private string username;
         private string password;
 
@@ -15,7 +16,7 @@ namespace QLXeMay
         {
         }
 
-        public Users(string username, string password)
+        public Users(int userId,string username, string password)
         {
             this.username = username;
             this.password = password;
@@ -23,5 +24,6 @@ namespace QLXeMay
 
         public string Username { get => username; set => username = value; }
         public string Password { get => password; set => password = value; }
+        public int UserId { get => userId; set => userId = value; }
     }
 }

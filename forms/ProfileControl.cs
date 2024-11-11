@@ -233,5 +233,10 @@ namespace QLXeMay.forms
         {
             this.Size = new Size(200, 200);
         }
+
+        private void buttonSaveImage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
